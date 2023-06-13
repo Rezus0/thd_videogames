@@ -1,0 +1,151 @@
+/* CSS Styling for the requirement list */
+.table-container {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    max-height: 580px;
+    overflow-y: scroll;
+}
+
+.table-container table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.content-above {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.table-container thead tr {
+    background-color: #333333;
+    position: sticky;
+    top: 0;
+    color: #ffffff;
+    text-align: left;
+}
+
+.table-container th,
+.table-container td {
+    padding: 12px 15px;
+    font-size: 19px;
+}
+
+.table-container tbody {
+    overflow-y: auto;
+    max-height: 400px;
+}
+
+.table-container tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+
+.table-container td button {
+    margin-right: 5px;
+    background-color: #4caf50;
+    color: #ffffff;
+    border: none;
+    padding: 10px 14px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.table-container td button.delete {
+    background-color: #e52222;
+}
+
+.table-container td button.delete:hover {
+    background-color: #cb1414;
+    transform: scale(1.04);
+}
+
+.table-container td button:hover {
+    background-color: #45a049;
+    transform: scale(1.04);
+}
+
+.modal-content {
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.modal-content input[type="text"],
+.modal-content input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-top: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.filter-button {
+    background-color: #299ace;
+    color: white;
+    margin-right: 5px;
+    border: none;
+    padding: 12px 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+}
+
+.filter-button[type="extra"] {
+    background-color: #dc9e10;
+
+}
+
+.filter-button[type="extra"]:hover {
+    background-color: #cb940c;
+}
+
+.filter-button:hover {
+    background-color: #2486b6;
+    transform: scale(1.04);
+}
+
+.clear-button {
+    background-color: #e52222;
+    color: white;
+    border: none;
+    padding: 12px 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    alignment: right;
+}
+
+.clear-button:hover {
+    background-color: #cb1414;
+    transform: scale(1.04);
+}
+
+.add-button {
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 12px 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.add-button:hover {
+    background-color: #45a049;
+    transform: scale(1.04);
+}
